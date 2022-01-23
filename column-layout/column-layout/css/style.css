@@ -1,0 +1,78 @@
+/*
+Project Name: Column Layout
+Author: Chris Castiglione @ onemonthhtml.com
+Developed @ One Month in NYC
+*/
+
+
+
+/*----------------------------------------------------------------------------- 
+=01 BASE STYLES 
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack *//*bit outdated but it is powerful this bix sizing gives us very clear picture of orientations and maths in the css*/
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}/*always use this template before making any project*/
+
+/* Clear Class *//*for clearing the messy footer*/
+.clear {
+	clear: both;
+}
+
+.alignright{
+     float: right;
+     margin:0 0 15px 15px;
+}
+
+.alignleft{
+     float: left;
+     margin: 0 15px 15px 0;
+}
+
+
+/*----------------------------------------------------------------------------- 
+=02 LAYOUT 
+-----------------------------------------------------------------------------*/
+
+/*h1{
+     display: inline-block;
+     width:  400px;
+     background: red;
+}*//* just for understanding inline block concepts some html elements are inline some are block by default*/
+
+
+#container
+{
+     margin: 0 auto 0 auto;/*up and bottom zero and left and right it will adjust by itself*/
+     width: 1200px;
+
+}
+
+#header{
+     background: lightskyblue;
+     padding: 50px;
+
+}
+
+#main{
+background: lightsteelblue;
+
+    padding: 50px;
+    width: 800px;
+    float: left;
+}
+
+#sidebar{
+     background: lightcyan;
+     width: 400px;
+     float: left;
+     padding: 50px;
+}
+
+#footer{
+background: lightpink;
+    padding: 50px;
+}
