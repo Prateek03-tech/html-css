@@ -55,15 +55,23 @@ h2 {
   font-size: 32px;
 }
 
-/*
- * Container Styles
-*/
 
 .container {
   width: 600px;
   margin: 100px auto;
-  background: #FFF;
+ 
 }
+
+
+
+/*
+ * Container Styles
+*/
+
+.heroimg img{
+  width: 100%;
+}
+
 
 
 
