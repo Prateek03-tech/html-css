@@ -9,3 +9,8 @@
 .heroimg img{
 	border-radius: 20px 20px 0 0;
 }
+
+aside.right,aside.left,aside.unicorntext{
+text-align: center;
+float: inherit;/*used for default settings*/
+}

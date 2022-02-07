@@ -4,8 +4,11 @@
 
 
 body {
-  background: #DDD;
+   background: url('../images/space-background.png');
   font-family: 'Open Sans', arial, sans-serif;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 * {
@@ -46,13 +49,18 @@ h1, h2 {
   margin-bottom: 32px;
 }
 
+html{
+  font-size: 100%;
+}
+
+
 h1 {
 
-  font-size: 16px;
+  font-size:2.25rem ;/*use rem calculator  36/16px that would be default*/
 }
 
 h2 {
-  font-size: 32px;
+  font-size: 2rem;
 }
 
 
@@ -72,6 +80,42 @@ h2 {
   width: 100%;
 }
 
+/*
 
+*aside styles
+*/
 
+aside.right{
+  float: right;
+}
 
+aside.left{
+  float: left;
+}
+
+aside.unicorntext{
+  float: left;
+  
+}
+aside {
+  margin-right: 1.5rem;
+  margin-bottom: 0.625rem;
+}
+
+/*section styles*/
+
+section.intro{
+  background: #FFF;
+  padding: 40px;
+  
+}
+section.heroimg{
+  line-height: 0;
+}
+section.contact{
+  background: #e6e9ea;
+  
+}
+section.map{
+  text-align: center;
+}
