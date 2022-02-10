@@ -112,3 +112,81 @@ span{
   color:#666A6C ;
   font-size: 16px;
 }
+
+/*
+*
+*
+*
+*
+
+MEDIA QUERY
+
+*
+*
+
+*
+*
+*/
+
+
+
+@media only screen and (min-width: 1060px){
+
+  .column{
+    float: left;
+  }
+
+  .container{
+    width: 1040px;
+    margin: 0 auto;
+  }
+
+
+  .info .profile{
+    width: 660px;
+    border-right: 1px solid #DCE0E0;
+  }
+
+  .booking{
+    width: 380px;
+  }
+
+
+  .info .owner-details{
+    width: 20%;
+  }
+
+  .info .pet-details{
+    width: 80%;
+    text-align: left;
+  }
+
+
+   .button {
+ width: 275px;
+ margin: auto;
+ }
+
+
+
+.info h1 {
+ margin-bottom: 11px;
+ }
+
+ .info h2 {
+ margin-bottom: 3px;
+ }
+
+
+ .info .pet-details .icons {
+ width: inherit;
+ margin-right: 50px;
+ }
+
+ .info .pet-details .icons img {
+ display: block;
+ margin: 3px auto 3px;
+ }
+
+
+}
